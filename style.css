@@ -115,7 +115,7 @@ ul {
 .solid-menu {
     display: none;
 }
-
+/* =================Hero================== */
 .hero-section {
     background: linear-gradient(to right, rgb(255, 255, 255), #ffe8c8);
     padding: 80px 10px;
@@ -233,4 +233,87 @@ ul {
     position: absolute;
     top: -39px;
     left: -74px;
+}
+
+/* =================advantages================== */
+.advantages-section {
+    padding: 40px 15px;
+    position: relative;
+    overflow: hidden;
+}
+.advantages-title {
+    color: #585858;
+    font-family: 'Poppins', sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 140%;
+    letter-spacing: -0.96px;
+    margin-bottom: 30px;
+}
+.advantages-title-accent {
+    color: #fb9300;
+}
+.advantages-list {
+    display: flex;
+}
+.advantages-item {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+
+    align-items: flex-start;
+    justify-content: end;
+    gap: 10px;
+    width: 300px;
+    height: 280px;
+    border-radius: 50px;
+    border: 1px solid #fff0da;
+    background: #fff;
+    position: relative;
+    box-sizing: border-box;
+}
+.advantages-decor {
+    content: '';
+    box-sizing: border-box;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    border-radius: 20px;
+    background: #ffe8c8;
+    padding: 25px;
+    top: 30px;
+}
+.advantages-img {
+    width: 50px;
+    height: 50px;
+}
+.advantages-item-title {
+    color: #2b2b2b;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 180%; /* 43.2px */
+    letter-spacing: -0.48px;
+}
+.advantages-item-text {
+    color: #575757;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 180%; /* 28.8px */
+    letter-spacing: -0.32px;
+}
+.advantages-decor-second {
+    content: '';
+    width: 100px;
+    height: 100px;
+    transform: rotate(15deg);
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: rgba(255, 232, 200, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
 }
