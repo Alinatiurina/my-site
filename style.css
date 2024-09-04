@@ -1,0 +1,236 @@
+/* =================Base================== */
+body {
+    background-color: #fff;
+    font-family: 'Roboto', sans-serif;
+    color: #1e1f25;
+}
+a {
+    text-decoration: none;
+    color: #1e1f25;
+}
+ul,
+ol {
+    list-style: none;
+}
+button {
+    cursor: pointer;
+}
+img {
+    display: block;
+    max-width: 100%;
+}
+
+.page-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+main {
+    flex-grow: 1;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+ol,
+ul {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+.container {
+    max-width: 1158px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 15px;
+}
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+/* =================Header================== */
+.page-header {
+    background: linear-gradient(to right, rgb(255, 255, 255), #ffe8c8);
+    padding: 10px;
+}
+.header-container {
+}
+.page-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-logo-header {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    color: #585858;
+}
+.header-logo-accent {
+    color: #fb9333;
+}
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+.nav-list-item {
+    font-size: 16px;
+    font-weight: 500;
+}
+.nav-link:hover,
+.nav-link:active,
+.nav-link:focus {
+    color: #fb9333;
+}
+.nav-link {
+    color: #585858;
+}
+.menu-position {
+}
+.social-link-item {
+}
+.nav-link-cocial {
+}
+.social-icon {
+}
+.solid-menu-btn {
+    display: none;
+}
+.solid-menu {
+    display: none;
+}
+
+.hero-section {
+    background: linear-gradient(to right, rgb(255, 255, 255), #ffe8c8);
+    padding: 80px 10px;
+}
+.hero-text-block {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.hero-title {
+    color: #585858;
+    font-family: 'Poppins', sans-serif;
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 0.9; /* 32px */
+    letter-spacing: -0.4px;
+}
+.hero-title-accent {
+    color: #fb9333;
+    font-family: 'Poppins', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+}
+.hero-text {
+    color: #828282;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+.hero-btn {
+    display: flex;
+    width: 192px;
+    height: 50px;
+
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    background: #fb9333;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 130%; /* 18.2px */
+    border-color: transparent;
+}
+.hero-btn:focus,
+.hero-btn:hover,
+.hero-btn:active {
+    background-color: #fff0dc;
+    color: #fb9333;
+}
+
+.hero-statistic {
+    display: flex;
+    gap: 50px;
+}
+.hero-container {
+    display: flex;
+    gap: 120px;
+}
+.hero-stat-box {
+}
+.hero-stat-number {
+    color: #575757;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 160%; /* 38.4px */
+}
+.hero-stat-text {
+    color: #828282;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 160%; /* 25.6px */
+}
+.hero-img {
+    width: 371px;
+    height: 398px;
+    border-radius: 82px;
+    position: relative;
+    z-index: 99;
+}
+.decor-orange {
+    content: '';
+    width: 400px;
+    height: 450px;
+    border-radius: 80px;
+    background: #ffc97d;
+    position: absolute;
+    top: -17px;
+    left: -6px;
+    rotate: 69deg;
+}
+.decor-beg {
+    content: '';
+    width: 400px;
+    height: 450px;
+    border-radius: 80px;
+    background: #ffe8c8;
+    position: absolute;
+    top: -17px;
+    left: -6px;
+    rotate: 48deg;
+}
+.img-container {
+    position: relative;
+}
+.decor-vector-one {
+    position: absolute;
+    top: -132px;
+    right: -248px;
+}
+.decor-vector {
+    position: absolute;
+    top: -39px;
+    left: -74px;
+}
