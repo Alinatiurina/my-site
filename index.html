@@ -72,8 +72,8 @@
                             <br />
                             твій фотограф
                         </h2>
-                        <p class="hero-text">Зі мною легко та комфортно</p>
-                        <button class="hero-btn">Замовити фотосесію</button>
+                        <p class="hero-text">Поруч у найщасливіші миті</p>
+                        <a href="https://www.instagram.com/alina.tiyrina/" class="hero-btn">Замовити фотосесію</a>
 
                         <div class="hero-statistic">
                             <div class="hero-stat-box">
@@ -104,7 +104,7 @@
                     <span class="advantages-title-accent">Переваги</span> роботи зі мною
                 </h3>
                 <div class="swiper">
-                    <button class="slider-btn-next back">
+                    <button class="back slider-btn-prev">
                         <img src="./img/svg/arrow.png" alt="" />
                     </button>
                     <ul class="advantages-list swiper-wrapper">
@@ -270,10 +270,10 @@
                                 потреби, та інше);
                             </li>
                             <li class="price-item">весь відзнятий матеріал з корекцією кольору;</li>
-                            <li class="price-item">фото через файлоо бмінник;</li>
+                            <li class="price-item">фото через файлообмінник;</li>
                             <li class="price-item">час очікування до 10 днів.</li>
                         </ul>
-                        <p class="price-text price bold">1000 грн/год</p>
+                        <p class="price-text price bold">1200 грн/год</p>
                         <p class="price-text">
                             Оренда фотостудії, послуги візажиста, стиліста, прокат одягу, вхід на
                             локацію та інші додаткові витрати
@@ -290,7 +290,7 @@
                             особливостей такої зйомки.
                         </p>
                         <p class="price-text">
-                            Ознайомитись з вартістю <a href="">весільної фотозйомки можна тут</a>
+                            Ознайомитись з вартістю <a href="/wedding.html">весільної фотозйомки можна тут</a>
                             Якщо жоден з запропонованих пакетних варіантів весілля вам не підійшов,
                             ви можете скористатись загальним погодинним прайсом.
                         </p>
@@ -309,7 +309,6 @@
                 <a class="insta-link" href="https://www.instagram.com/alina.tiyrina/"
                     >Підписатися</a
                 >
-                <!-- <img class="insta-img-decor" src="./img/svg/Vector.svg" alt="" /> -->
             </section>
 
             <a class="nav-btn" href="./index.html"
@@ -329,13 +328,13 @@
                                 <a class="footer-text accent" href="./index.html">Головна</a>
                             </li>
                             <li class="footer-item">
-                                <a class="footer-text" href="#price">Прайс</a>
+                                <a class="footer-text link" href="#price">Прайс</a>
                             </li>
                             <li class="footer-item">
-                                <a class="footer-text" href="./index.html">Прайс весілля</a>
+                                <a class="footer-text link" href="./wedding.html">Прайс весілля</a>
                             </li>
                             <li class="footer-item">
-                                <a class="footer-text" href="./index.html">Прайс фотокниги</a>
+                                <a class="footer-text link" href="./photobook.html">Прайс фотокниги</a>
                             </li>
                         </ul>
                     </div>
@@ -414,6 +413,13 @@
                     </address>
                 </div>
             </section>
+            <!-- HTML Structure for Modal -->
+            <div id="modal" class="modal">
+                <span class="close">&times;</span>
+                <img class="modal-content" id="modal-img">
+                <span class="prev">&#10094;</span>
+                <span class="next">&#10095;</span>
+              </div>
         </main>
 
         <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
